@@ -491,7 +491,7 @@ mark,
 .img-fluid {
   transition: 0.5s ease-out;
   opacity: 0.8;
-  width: 345px;
+  width: 350px;
   height: 280px;
 }
 
@@ -5866,7 +5866,12 @@ a.close.disabled {
 .carousel.pointer-event {
   touch-action: pan-y;
 }
-
+.carousel-inner-mini{
+  margin: auto;
+  height: 100%;
+  width: 60%;
+  overflow: hidden;
+}
 .carousel-inner {
   margin: auto;
   position: relative;
@@ -10481,10 +10486,12 @@ header.masthead .masthead-heading {
   margin-top: 1.5rem;
   margin-bottom: 0;
 }
-
+.contacto{
+  width: 100%;
+  height: 100%;
+}
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/taerjta.png");
   background-size: 100% 510px;
   background-repeat: no-repeat;
   background-position: center;
