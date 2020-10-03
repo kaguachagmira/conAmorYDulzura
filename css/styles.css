@@ -10,7 +10,10 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+.img-evento{
+  width: 80%;
+  height: 50%;
+}
  .dulce{
    border-radius: 100%;
    width: 125px;
